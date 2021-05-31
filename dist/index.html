@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Backendless</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" />
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+  <link href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.min.css">
+</head>
+<body class="page page_light">
+  <div class="wrapper">
+    <header class="header">
+      <div class="container">
+        <div class="header__wrap">
+          <div class="header__logo logo">
+            <a href="index.html">Backendless</a>
+          </div>
+          <div class="header__switch-themes switch-themes">
+            <div class="switch-themes__radio-block" id="radioBlock">
+             <label><input type="radio" name="radio-btn" value="Light Theme" checked> Light Theme</label>
+             <label><input type="radio" name="radio-btn" value="Dark Theme"> Dark Theme</label>
+             <label><input type="radio" name="radio-btn" value="Gray Theme"> Gray Theme</label>
+            </div>
+            <div class="switch-themes__buttons-block" id="buttonsBlock">
+              <input class="switch-themes__button active" type="button" value="Light Theme">
+              <input class="switch-themes__button" type="button" value="Dark Theme">
+              <input class="switch-themes__button" type="button" value="Gray Theme">
+             </div>
+            <select class="switch-themes__select-block" id="selectBlock">
+              <option value="Light Theme" selected>Light Theme</option>
+              <option value="Dark Theme">Dark Theme</option>
+              <option value="Gray Theme">Gray Theme</option>
+            </select>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main class="main">
+      <div class="container">
+        <div class="main__title animation">
+          <h1>Backendless Gallery</h1>
+        </div>
+        <div class="gallery">
+          <div class="gallery__wrap">
+            <a class="gallery__item" data-fancybox="gallery" href="./images/item1.jpg"><img src="./images/item1.jpg" alt="image"></a>
+            <a class="gallery__item" data-fancybox="gallery" href="./images/item2.jpg"><img src="./images/item2.jpg" alt="image"></a>
+            <a class="gallery__item" data-fancybox="gallery" href="./images/item3.jpg"><img src="./images/item3.jpg" alt="image"></a>
+            <a class="gallery__item" data-fancybox="gallery" href="./images/item4.jpg"><img src="./images/item4.jpg" alt="image"></a>
+            <a class="gallery__item" data-fancybox="gallery" href="./images/item2.jpg"><img src="./images/item2.jpg" alt="image"></a>
+            <a class="gallery__item" data-fancybox="gallery" href="./images/item3.jpg"><img src="./images/item3.jpg" alt="image"></a>
+            <a class="gallery__item" data-fancybox="gallery" href="./images/item1.jpg"><img src="./images/item1.jpg" alt="image"></a>
+            <a class="gallery__item" data-fancybox="gallery" href="./images/item4.jpg"><img src="./images/item4.jpg" alt="image"></a>
+            <a class="gallery__item" data-fancybox="gallery" href="./images/item3.jpg"><img src="./images/item3.jpg" alt="image"></a>
+            <a class="gallery__item" data-fancybox="gallery" href="./images/item2.jpg"><img src="./images/item2.jpg" alt="image"></a>
+            <a class="gallery__item" data-fancybox="gallery" href="./images/item1.jpg"><img src="./images/item1.jpg" alt="image"></a>
+            <a class="gallery__item" data-fancybox="gallery" href="./images/item4.jpg"><img src="./images/item4.jpg" alt="image"></a>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__wrap">
+          <div class="footer__info">
+            <a href="#">Backendless.com</a>
+            <a href="tel:555555555">555-555-555</a>
+          </div>
+          <div class="footer__social">
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-facebook-square"></i></a>
+            <a href="#"><i class="fab fa-twitter-square"></i></a>
+            <a href="#"><i class="fab fa-telegram"></i></a>
+            <a href="#"><i class="fab fa-youtube"></i></a>
+            <a href="#"><i class="fab fa-vk"></i></a>
+            <a href="#"><i class="fas fa-envelope"></i></a>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+  <script src="js/main.min.js"></script>
+</body>
+</html>
